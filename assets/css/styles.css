@@ -1,0 +1,37 @@
+.full{
+    width:100%;
+    min-height: 80vh;
+    height:inherit;
+}
+
+.half{
+    width:100%;
+    min-height:40vh;
+    height:inherit;
+}
+
+.flex-display{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+a{
+    transition: all 200ms ease;
+}
+
+p {
+  font-family: 'Poppins', sans-serif
+}
+
+img{
+    max-width:100%;
+}
+
+.underline{
+    width:30px;
+    height: 2px;
+    background-color: #284A98;
+    margin-top:10px;
+    margin-bottom:20px;
+}
