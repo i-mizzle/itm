@@ -81,7 +81,17 @@ export default {
   */
   modules: [
     'nuxt-fontawesome', 
+    '@nuxtjs/axios',
+    '@nuxtjs/toast',
   ],
+
+  toast: {
+    position: 'top-right',
+  },
+
+  axios: {
+    // proxyHeaders: false
+  },
   /*
   ** Build configuration
   */

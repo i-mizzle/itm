@@ -17,22 +17,25 @@
             <div class="col-md-6">
                 <ul class="flags">
                     <li class="country tanzania">
-                        <a href="#"></a>
+                        <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
                     <li class="country congo">
-                        <a href="#"></a>
+                        <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
                     <li class="country rwanda">
-                        <a href="#"></a>
+                        <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
                     <li class="country angola">
-                        <a href="#"></a>
+                        <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
                     <li class="country allemagne">
-                        <a href="#"></a>
+                        <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
                     <li class="country burundi">
-                        <a href="#"></a>
+                        <a href="https://itmafrica.com" target="_blank"></a>
+                    </li>
+                    <li class="country southafrica">
+                        <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
                 </ul>
             </div>
@@ -146,6 +149,10 @@ export default {
     }
     li.country.angola{
         background: url('../../assets/img/ao.png') no-repeat center center;
+        background-size: cover;
+    }
+    li.country.southafrica{
+        background: url('../../assets/img/sa.png') no-repeat center center;
         background-size: cover;
     }
 

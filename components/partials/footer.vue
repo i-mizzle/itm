@@ -9,12 +9,13 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12">
                         <h5>Contact Us</h5>
-                        <form>
-                            <input type="text" placeholder="your name" required>
-                            <input type="email" placeholder="your email address" required>
-                            <textarea placeholder="your message"></textarea>
-                            <button type="submit"> Send a message </button>
-                        </form>
+                        <!-- <form> -->
+                            <input type="text" v-model="mailerName" placeholder="your name" required>
+                            <input type="email" v-model="email" placeholder="your email address" required>
+                            <textarea v-model="mailBody"  placeholder="your message"></textarea>
+                            <button v-if="sendingEmail" disabled> Sending... </button>
+                            <button v-if="!sendingEmail" @click="sendEmail()"> Send a message </button>
+                        <!-- </form> -->
 
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-12">
@@ -54,8 +55,72 @@
 <script>
 
 export default {
-  components: {
-  },
+    components: {
+    },
+    data() {
+      return {
+          sendingEmail: false,
+          email: '',
+          subject: '',
+          mailBody: '',
+          mailerName: ''
+        }
+    },
+    methods: {
+        sendEmail() {
+            this.sendingEmail = true;
+            console.log('MAIL PARAMS', this.email + ' ' + this.mailBody)
+            var headers = {
+                'Authorization': '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',
+                'Content-Type': 'application/json',
+            }
+
+            var data = {  
+                "personalizations":[  
+                    {  
+                        "to":[  
+                            {  
+                            "email":"immanuel.o.onum@gmail.com",
+                            "name":this.name
+                            }
+                        ],
+                        "subject":"Enquiry Email from ITM website contact form"
+                    }
+                ],
+                "content":[  
+                    {  
+                        "type":"text/plain",
+                        "value":this.mailBody
+                    }
+                ],
+                "from":{  
+                    "email":this.email,
+                    "name":this.name
+                },
+                "reply_to":{  
+                    "email":this.email,
+                    "name":this.email
+                }
+            }
+            this.$axios.$post('https://api.sendgrid.com/v3/mail/send', data, {headers: headers})
+                .then((response) => {
+                    console.log(response)
+                    if(response.status === 202){
+                        this.$toast.error('Mail sent successfully')
+                        this.sendingEmail = false
+
+                    } else {
+                        this.sendingEmail = false
+                        this.$toast.error('Mail sending failed')
+                    }
+                })
+                .catch((error) => {
+                    this.sendingEmail = false
+                    this.$toast.error('Mail sending failed')
+                }) 
+        }
+    }
+
 }
 </script>
 

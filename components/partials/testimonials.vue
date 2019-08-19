@@ -19,8 +19,9 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 offset-lg-3 offset-md-3">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Donec Pede J.</strong></p>
+                                    <p>Had the privilege of sitting with <a href="https://twitter.com/ItmNigerialtd" target="_blank">@ItmNigerialtd</a>
+ to conduct interviews for prospective employees. I must say they are thorough indeed, and it was a good experience</p>
+                                    <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Geraldine Oba</strong></p>
                                 </div>
                                 <!-- <div class="col-lg-4 col-md-6">
                                     <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
@@ -41,8 +42,8 @@
                                     <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Donec Pede J.</strong></p>
                                 </div> -->
                                 <div class="col-lg-6 col-md-6 offset-lg-3 offset-md-3">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/generic-male.jpeg"><strong>Donec Pede J.</strong></p>
+                                    <p>Thank you so much <a href="https://twitter.com/ItmNigerialtd" target="_blank">@ItmNigeria</a> for career opportunities.</p>
+                                    <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Geraldine Oba</strong></p>
                                 </div>
                                 <!-- <div class="col-lg-4 col-md-6">
                                     <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
@@ -63,8 +64,8 @@
                                     <p><img class="testifier-image" src="../../assets/img/generic-male.jpeg"><strong>Donec Pede J.</strong></p>
                                 </div> -->
                                 <div class="col-lg-6 col-md-6 offset-lg-3 offset-md-3">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/profile3.jpeg"><strong>Donec Pede J.</strong></p>
+                                    <p>Thank you so much! You are the best!! Best recruitment team!! Best recruitment process!! </p>
+                                    <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Juliet Eseogu</strong></p>
                                 </div>
                             </div>
                         </div>
