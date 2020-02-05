@@ -1,6 +1,6 @@
 <template>
 <header>
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding-right:5%; padding-left:5%">
         <div class="row top-row">
             <div class="col-md-6">
                 <p>
@@ -16,33 +16,37 @@
             </div>
             <div class="col-md-6">
                 <ul class="flags">
-                    <li class="country tanzania">
+                    
+                    <li class="country germany" @click="openCountrySite('http://vinoteca-alemana.com/')">
+                        <a href="http://vinoteca-alemana.com/" target="_blank"></a>
+                    </li>
+                    <li class="country angola" @click="openCountrySite('https://itmafrica.com')">
                         <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
-                    <li class="country congo">
+                    <li class="country tanzania" @click="openCountrySite('https://itmafrica.co.tz/')">
+                        <a href="https://itmafrica.co.tz/" target="_blank"></a>
+                    </li>
+                    <li class="country southafrica" @click="openCountrySite('http://itmkatope.co.za/')">
+                        <a href="http://itmkatope.co.za/" target="_blank"></a>
+                    </li>
+                    <li class="country burundi" @click="openCountrySite('https://itmafrica.com')">
                         <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
-                    <li class="country rwanda">
+                    <li class="country rwanda" @click="openCountrySite('https://itmafrica.com')">
                         <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
-                    <li class="country angola">
-                        <a href="https://itmafrica.com" target="_blank"></a>
+                    <li class="country congo" @click="openCountrySite('https://itmafrica.rw/')">
+                        <a href="https://itmafrica.rw/" target="_blank"></a>
                     </li>
-                    <li class="country allemagne">
-                        <a href="https://itmafrica.com" target="_blank"></a>
-                    </li>
-                    <li class="country burundi">
-                        <a href="https://itmafrica.com" target="_blank"></a>
-                    </li>
-                    <li class="country southafrica">
-                        <a href="https://itmafrica.com" target="_blank"></a>
-                    </li>
+   
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg">
+    </div>
+    <!-- <div class="container-fluid"> -->
+        <!-- <div class="row">
+            <div class="col-md-12"> -->
+                <nav class="navbar navbar-expand-lg" style="padding-left:5%; padding-right:5%;">
                     <a class="navbar-brand" href="#">
                         <img class="logo" src="../../assets/img/logo-nigeria.png" alt="ITM Nigeria">
                     </a>
@@ -61,13 +65,13 @@
                             <!-- <a class="nav-item nav-link" href="#">Testimonials</a> -->
                             <nuxt-link class="nav-item nav-link" :to="{ path: '/',hash:'#testimonials'}">Testimonials</nuxt-link>
                             <!-- <a class="nav-item nav-link" href="#">Get in Touch</a> -->
-                            <nuxt-link class="nav-item nav-link" :to="{ path: '/',hash:'#contact'}">Get in Touch</nuxt-link>
+                            <nuxt-link class="nav-item nav-link" :to="{ path: '/',hash:'#contact'}">Get In Touch</nuxt-link>
                         </div>
                     </div>
                 </nav>
-            </div>
-        </div>
-    </div>
+            <!-- </div>
+        </div> -->
+    <!-- </div> -->
 </header>
 </template>
 
@@ -78,6 +82,11 @@ export default {
   },
   data(){
       return {}
+  },
+  methods:{
+      openCountrySite(link){
+          window.open(link)
+      }
   }
 }
 </script>
@@ -89,8 +98,8 @@ export default {
         left:0;
         width:100%;
         z-index:999;
-        padding-left:5%;
-        padding-right:5%;
+        /* padding-left:5%;
+        padding-right:5%; */
     }
     nav{
         padding:15px 30px;
@@ -127,6 +136,14 @@ export default {
         margin-top:20px;
     }
 
+     li.country a{
+         display:block
+     }
+
+    li.country.germany{
+        background: url('../../assets/img/ge.png') no-repeat center center;
+        background-size: cover;
+    }
     li.country.tanzania{
         background: url('../../assets/img/tz.png') no-repeat center center;
         background-size: cover;
@@ -163,7 +180,7 @@ export default {
     a.nav-link{
         color:#fff;
         font-size: 1em;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
     span.phone, span.email {

@@ -5,8 +5,8 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <!-- <h5>Have what it takes to join us?</h5> -->
-                        <h5>Add your CV to our talent pool</h5>
-                        <a href="https://qrgo.page.link/dqN5F">Upload your CV</a>
+                        <h5>Add Your CV To Our Talent Pool</h5>
+                        <a href="https://qrgo.page.link/dqN5F">Upload Your CV</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ export default {
         margin-bottom:15px;
         outline:none;
         transition: all 200ms ease;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         border-radius: 3px;
         display: inline-block;
         margin-top: 20px;

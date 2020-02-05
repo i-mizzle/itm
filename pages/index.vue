@@ -12,35 +12,50 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active slide1" style="">
-                  <img src='../assets/img/human-resources.jpg' class="d-block w-100" alt="...">
+                  <!-- <img src='../assets/img/human-resources.jpg' class="d-block w-100" alt="..."> -->
+                  
+                  <img src="../assets/img/slider33.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-md-block">
                     <h5>Human Resources Solutions</h5>
                     <!-- <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p> -->
                   </div>
                 </div>
                 <div class="carousel-item slide2">
-                  <img src="../assets/img/sales.jpg" class="d-block w-100" alt="...">
+                  <!-- <img src="../assets/img/sales.jpg" class="d-block w-100" alt="..."> -->
+                  <img src="../assets/img/slider22.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-md-block">
-                    <h5>Sales and Distribution Solutions</h5>
+                    <h5>Sales & Distribution Solutions</h5>
                     <!-- <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p> -->
                   </div>
                 </div>
                 <div class="carousel-item slide3">
-                  <img src="../assets/img/logistics.jpg" class="d-block w-100" alt="...">
+                  <!-- <img src="../assets/img/logistics.jpg" class="d-block w-100" alt="..."> -->
+                  <img src="../assets/img/gallery4.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-md-block">
                     <h5>Supply Chain Solutions</h5>
                     <!-- <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p> -->
                   </div>
                 </div>
                 <div class="carousel-item slide4">
-                  <img src="../assets/img/agriculture.jpg" class="d-block w-100" alt="...">
+                  <!-- <img src="../assets/img/agriculture.jpg" class="d-block w-100" alt="..."> -->
+                  
+                  <img src='../assets/img/slider11.jpg' class="d-block w-100" alt="...">
                   <div class="carousel-caption d-md-block">
                     <h5>Industry Solutions</h5>
                     <!-- <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p> -->
                   </div>
+                </div>
+                <div class="carousel-item slide5">
+                  <!-- <img src="../assets/img/agriculture.jpg" class="d-block w-100" alt="..."> -->
+                  
+                  <img src='../assets/img/slider55.jpeg' class="d-block w-100" alt="...">
+                  <!-- <div class="carousel-caption d-md-block">
+                    <h5>Industry Solutions</h5>
+                  </div> -->
                 </div>
 
 
@@ -83,7 +98,7 @@
           <h4>ABOUT US</h4>
           <div class="underline"></div>
           <p class="boxed">
-            ITM Nigeria Ltd is a leading provider of a wide range of support services tailored to the needs of business entities operating in Nigeria. From human resources needs to corporate trainings, business process outsourcing and supply chain solutions, ITM Nigeria is your ideal business solutions partner. Our services are recognized for their efficiency in business process improvement and enhancing career development.
+            ITM Nigeria Ltd is a leading provider of a wide range of support services tailored to the needs of business entities operating in Nigeria. From human resources needs to corporate trainings, business process outsourcing & supply chain solutions, ITM Nigeria is your ideal business solutions partner. Our services are recognized for their efficiency in business process improvement & enhancing career development.
           </p>
         </div>
       </div>
@@ -110,7 +125,7 @@
                   </div>
                 </div>
                 <div class="col-md-9">
-                  <p><strong>Human Resource Solutions</strong> <br>Recruitment, Outsourcing, Labour hire and Corporate Trainings</p>
+                  <p><strong>Human Resource Solutions</strong> <br>Recruitment, Outsourcing, Labour hire & Corporate Trainings</p>
                 </div>
               </div>
             </div>
@@ -126,7 +141,7 @@
                   </div>
                 </div>
                 <div class="col-md-9">
-                  <p><strong>Sales and Distribution Solutions</strong> <br>Telecommunications, Aviation, Banking, Consumer Goods</p>
+                  <p><strong>Sales & Distribution Solutions</strong> <br>Telecommunications, Aviation, Banking, Consumer Goods</p>
                 </div>
               </div>
             </div>
@@ -144,7 +159,7 @@
                   </div>
                 </div>
                 <div class="col-md-9">
-                  <p style="margin-left:25px"><strong>Supply Chain Solutions</strong> <br>Logistics, Procurement and More.</p>
+                  <p style="margin-left:25px"><strong>Supply Chain Solutions</strong> <br>Logistics, Procurement & More.</p>
                 </div>
               </div>
             </div>
@@ -160,11 +175,59 @@
                   </div>
                 </div>
                 <div class="col-md-9">
-                  <p style="margin-left:25px"><strong>Industry Solutions</strong> <br>Mining, Agriculture and More</p>
+                  <p style="margin-left:25px"><strong>Industry Solutions</strong> <br>Mining, Agriculture & More</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="full gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>NIGERIA MINING WEEK 2019</h4>
+          <div class="underline"></div>
+
+          <p>Our primary objective at the recently concluded Nigeria Mining Week revolves around the Nigeria Mining Sector And How Sustainable Human Capital Development Can Be The Biggest Contributor ( i.e. Skills Building  & Education Support For The Mining Sector). We believe in driving the education support sector where the rural numbers are high. Equip the local artisanal miners with necessary skills and enforce the policies supporting the industry and all relevant activities. All these are necessary phases in getting to the objective of improving the business environment, thereby improving innovation.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="gallery-item" src="../assets/img/gallery1.JPG">
+        </div>
+        <div class="col-md-4">
+          <img class="gallery-item" src="../assets/img/gallery2.JPG">
+        </div>
+        <div class="col-md-4">
+          <img class="gallery-item" src="../assets/img/gallery3.JPG">
+        </div>
+        <div class="col-md-4">
+          <img class="gallery-item" src="../assets/img/gallery44.JPG">
+        </div>
+        <div class="col-md-4">
+          <img class="gallery-item" src="../assets/img/gallery5.JPG">
+        </div>
+        <div class="col-md-4 ">
+          <img class="gallery-item" src="../assets/img/gallery6.JPG">
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom:20px">
+        <div class="col-md-12">
+          <hr>
+        </div>
+        <div class="col-md-4">
+          <h4>IN THE MEDIA</h4>
+          <div class="underline"></div>
+          <p class="daily-trust"><i>"Habibah Waziri is the Country Director of ITM Africa in Nigeria. She oversees logistics, develops new business and ensures profitability of the company which played a vital role at the just concluded Nigerian Mining Week. She tells us more."</i></p>
+          <a href="https://www.dailytrust.com.ng/no-company-can-function-without-effective-backbone-itm-africa-director.html" target="_blank">Read the full Interview</a>
+        </div>
+        <div class="col-md-8">
+          <img src="../assets/img/screenshot.jpg">
         </div>
       </div>
     </div>
@@ -202,23 +265,28 @@ export default {
 
 <style scoped>
 p{
-  font-family: 'Poppins', sans-serif
+  font-family: 'Montserrat', sans-serif
+}
+
+img.gallery-item{
+  margin-top:15px;
+  margin-bottom:15px;
 }
 
 .carousel{
-  margin-top: 30px;
-  padding-left:100px;
-  padding-right:100px;
+  /* margin-top: 30px; */
+  /* padding-left:100px;
+  padding-right:100px; */
 }
 
 .carousel-item {
-  max-height:70vh;
+  max-height:100vh;
   position: relative;
 }
 
 .carousel-caption{
   position: absolute;
-  top:25vh;
+  top:5vh;
   left:15%;
   text-align:left;
   width:50%;
@@ -227,8 +295,9 @@ p{
 .carousel-caption h5{
   font-size: 4em;
   font-weight:800;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   width: 80%;
+  text-shadow: 2px 2px 30px #00000056;
 }
 
 .carousel-caption p{
@@ -281,7 +350,7 @@ div.about-underlay{
 }
 
 h4{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size:1.2em;
   margin-bottom:30px;

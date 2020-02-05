@@ -184,7 +184,7 @@ export default {
         margin-bottom:15px;
         outline:none;
         transition: all 200ms ease;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
     input[type=text]:focus, input[type=email]:focus, textarea:focus{
@@ -200,7 +200,7 @@ export default {
         margin-bottom:15px;
         outline:none;
         transition: all 200ms ease;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
     button:hover{
         background-color:#15556d;

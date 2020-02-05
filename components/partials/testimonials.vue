@@ -18,52 +18,43 @@
                     <div class="carousel-item active">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 offset-lg-3 offset-md-3">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2">
+                                    <div class="twitter-bg">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
                                     <p>Had the privilege of sitting with <a href="https://twitter.com/ItmNigerialtd" target="_blank">@ItmNigerialtd</a>
  to conduct interviews for prospective employees. I must say they are thorough indeed, and it was a good experience</p>
                                     <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Geraldine Oba</strong></p>
                                 </div>
-                                <!-- <div class="col-lg-4 col-md-6">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/profile1.jpeg"><strong>Donec Pede J.</strong></p>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/profile2.jpeg"><strong>Donec Pede J.</strong></p>
-                                </div> -->
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="container">
                             <div class="row">
-                                <!-- <div class="col-lg-4 col-md-6">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Donec Pede J.</strong></p>
-                                </div> -->
-                                <div class="col-lg-6 col-md-6 offset-lg-3 offset-md-3">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2">
+                                    <div class="twitter-bg">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
                                     <p>Thank you so much <a href="https://twitter.com/ItmNigerialtd" target="_blank">@ItmNigeria</a> for career opportunities.</p>
                                     <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Geraldine Oba</strong></p>
                                 </div>
-                                <!-- <div class="col-lg-4 col-md-6">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/profile3.jpeg"><strong>Donec Pede J.</strong></p>
-                                </div> -->
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="container">
                             <div class="row">
-                                <!-- <div class="col-lg-4 col-md-6">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Donec Pede J.</strong></p>
-                                </div> -->
-                                <!-- <div class="col-lg-4 col-md-6">
-                                    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                                    <p><img class="testifier-image" src="../../assets/img/generic-male.jpeg"><strong>Donec Pede J.</strong></p>
-                                </div> -->
-                                <div class="col-lg-6 col-md-6 offset-lg-3 offset-md-3">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2">
+                                    <div class="twitter-bg">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
                                     <p>Thank you so much! You are the best!! Best recruitment team!! Best recruitment process!! </p>
                                     <p><img class="testifier-image" src="../../assets/img/generic-female.jpg"><strong>Juliet Eseogu</strong></p>
                                 </div>
@@ -100,10 +91,19 @@ export default {
         padding:100px;
     }
 
+    .twitter-bg{
+        background-color:#1CA0F0;
+        height:150px;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#fff;
+    }
     h5{
         color: #000;
         margin-bottom: 20px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
     }
 
