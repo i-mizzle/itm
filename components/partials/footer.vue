@@ -22,7 +22,7 @@
                         <h5>Find Us Here</h5>
                         <div class="contact-block">
                             <img src="../../assets/img/location.png">
-                            <p>No 47, Kumasi Crescent Wuse 2, Abuja<br>Nigeria</p>
+                            <p>Ground Floor, St. James House, 167 Adetokunbo Ademola Crescent (by Peniel Apartments)<br>Nigeria</p>
                         </div>
                         <div class="contact-block">
                             <img src="../../assets/img/mail.png">

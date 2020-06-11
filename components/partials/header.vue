@@ -29,9 +29,9 @@
                     <li class="country southafrica" @click="openCountrySite('http://itmkatope.co.za/')">
                         <a href="http://itmkatope.co.za/" target="_blank"></a>
                     </li>
-                    <li class="country burundi" @click="openCountrySite('https://itmafrica.com')">
+                    <!-- <li class="country burundi" @click="openCountrySite('https://itmafrica.com')">
                         <a href="https://itmafrica.com" target="_blank"></a>
-                    </li>
+                    </li> -->
                     <li class="country rwanda" @click="openCountrySite('https://itmafrica.com')">
                         <a href="https://itmafrica.com" target="_blank"></a>
                     </li>
@@ -60,6 +60,7 @@
                             <nuxt-link class="nav-item nav-link" :to="{ path: '/',hash:'#about'}">About Us</nuxt-link>
                             <!-- <a class="nav-item nav-link" href="#">Our Services</a> -->
                             <nuxt-link class="nav-item nav-link" :to="{ path: '/',hash:'#services'}">Our Services</nuxt-link>
+                            <a class="nav-item nav-link" href="https://nigeria.elearning.itmafrica.com/" target="_blank">E Learning</a>
                             <!-- <a class="nav-item nav-link" href="#">Clients & Partners</a> -->
                             <nuxt-link class="nav-item nav-link" :to="{ path: '/',hash:'#clients'}">Clients & Partners</nuxt-link>
                             <!-- <a class="nav-item nav-link" href="#">Testimonials</a> -->
@@ -152,10 +153,10 @@ export default {
         background: url('../../assets/img/de.png') no-repeat center center;
         background-size: cover;
     }
-    li.country.burundi{
+    /* li.country.burundi{
         background: url('../../assets/img/bi.png') no-repeat center center;
         background-size: cover;
-    }
+    } */
     li.country.congo{
         background: url('../../assets/img/cd.png') no-repeat center center;
         background-size: cover;

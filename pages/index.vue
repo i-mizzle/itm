@@ -34,7 +34,7 @@
                 </div>
                 <div class="carousel-item slide3">
                   <!-- <img src="../assets/img/logistics.jpg" class="d-block w-100" alt="..."> -->
-                  <img src="../assets/img/gallery4.jpg" class="d-block w-100" alt="...">
+                  <img src="../assets/img/gallery4.JPG" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-md-block">
                     <h5>Supply Chain Solutions</h5>
                     <!-- <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p> -->
@@ -185,9 +185,30 @@
     </div>
   </section>
 
+  <VideoPreview />
+
+
   <section class="full gallery">
     <div class="container">
-      <div class="row">
+      <div class="row" style="margin-bottom:20px">
+        <div class="col-md-12">
+          <hr>
+        </div>
+        <div class="col-md-4">
+          <h4>IN THE MEDIA</h4>
+          <div class="underline"></div>
+          <p class="daily-trust"><i>"Habibah Waziri is the Country Director of ITM Africa in Nigeria. She oversees logistics, develops new business and ensures profitability of the company which played a vital role at the just concluded Nigerian Mining Week. She tells us more."</i></p>
+          <a href="https://www.dailytrust.com.ng/no-company-can-function-without-effective-backbone-itm-africa-director.html" target="_blank">Read the full Interview</a>
+        </div>
+        <div class="col-md-8">
+          <img src="../assets/img/screenshot.jpg">
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <hr>
+        </div>
         <div class="col-md-12">
           <h4>NIGERIA MINING WEEK 2019</h4>
           <div class="underline"></div>
@@ -206,30 +227,17 @@
           <img class="gallery-item" src="../assets/img/gallery3.JPG">
         </div>
         <div class="col-md-4">
-          <img class="gallery-item" src="../assets/img/gallery44.JPG">
+          <img class="gallery-item" src="../assets/img/gallery44.jpg">
         </div>
         <div class="col-md-4">
           <img class="gallery-item" src="../assets/img/gallery5.JPG">
         </div>
         <div class="col-md-4 ">
-          <img class="gallery-item" src="../assets/img/gallery6.JPG">
+          <img class="gallery-item" src="../assets/img/gallery6.jpg">
         </div>
       </div>
 
-      <div class="row" style="margin-bottom:20px">
-        <div class="col-md-12">
-          <hr>
-        </div>
-        <div class="col-md-4">
-          <h4>IN THE MEDIA</h4>
-          <div class="underline"></div>
-          <p class="daily-trust"><i>"Habibah Waziri is the Country Director of ITM Africa in Nigeria. She oversees logistics, develops new business and ensures profitability of the company which played a vital role at the just concluded Nigerian Mining Week. She tells us more."</i></p>
-          <a href="https://www.dailytrust.com.ng/no-company-can-function-without-effective-backbone-itm-africa-director.html" target="_blank">Read the full Interview</a>
-        </div>
-        <div class="col-md-8">
-          <img src="../assets/img/screenshot.jpg">
-        </div>
-      </div>
+      
     </div>
   </section>
 
@@ -244,6 +252,7 @@
 import Header from '~/components/partials/header.vue'
 import Footer from '~/components/partials/footer.vue'
 import CallToAction from '~/components/partials/calltoaction.vue'
+import VideoPreview from '~/components/partials/VideoPreview.vue'
 import ClientsPartners from '~/components/partials/clientspartners.vue'
 import Testimonials from '~/components/partials/testimonials.vue'
 
@@ -253,7 +262,8 @@ export default {
     Footer,
     CallToAction,
     ClientsPartners,
-    Testimonials
+    Testimonials,
+    VideoPreview
   },
   data () {
     return {

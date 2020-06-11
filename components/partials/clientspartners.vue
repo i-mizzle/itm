@@ -49,6 +49,15 @@
                     <div class="col-lg-2 col-md-3 col-sm-3 text-center">
                         <img class="client" src="../../assets/img/partner-2.png">
                     </div>
+                    <div class="col-lg-2 col-md-3 col-sm-3 text-center mt-5">
+                        <img class="client mt-5" src="../../assets/img/ngf.png">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-3 text-center bg-black">
+                        <img class="client" src="../../assets/img/samubil.png">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-3 text-center">
+                        <img class="client" src="../../assets/img/steelbridge.png">
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,6 +112,10 @@ export default {
     img.client{
         width:100%;
         margin-top:30px;
+    }
+
+    .bg-black{
+        background-color:black;
     }
 
     @media screen and (max-width: 768px) {
