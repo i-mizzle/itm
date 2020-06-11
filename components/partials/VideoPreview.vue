@@ -14,7 +14,7 @@
                                     <i class="fas fa-play fa-3x" />
                                 </a>
                             </div>
-                            <img src="../../assets/img/elearning.jpg" alt="" class="post-image mb-3">
+                            <!-- <img src="../../assets/img/elearning.jpg" alt="" class="post-image mb-3"> -->
                         </div>
 
                         <a href="https://nigeria.elearning.itmafrica.com/" target="_blank" class="button">JOIN IN</a>
@@ -106,6 +106,15 @@ export default {
         border-radius: 10px;
         border: 5px solid #3FBEEB;
     }
+
+    .video{
+        width: 100%;
+        border-radius: 10px;
+        border: 5px solid #3FBEEB;
+        background: url('../../assets/img/elearning.jpg') no-repeat center center;
+        background-size:cover;
+        height: 300px;
+    }
     .video .overlay {
   width:100%;
   position:absolute;
@@ -118,8 +127,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: inherit;
-  padding: 180px;
+  height: 300px;
+  /* padding: 180px; */
   z-index: 98;
   transition: all 500ms ease;
   cursor: pointer;
