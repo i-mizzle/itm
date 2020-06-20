@@ -244,6 +244,7 @@
   <CallToAction />
   <ClientsPartners id="clients"/>
   <Testimonials id="testimonials"/>
+  <Team />
   <Footer id="contact"/>
 </section>
 </template>
@@ -255,6 +256,7 @@ import CallToAction from '~/components/partials/calltoaction.vue'
 import VideoPreview from '~/components/partials/VideoPreview.vue'
 import ClientsPartners from '~/components/partials/clientspartners.vue'
 import Testimonials from '~/components/partials/testimonials.vue'
+import Team from '~/components/partials/team.vue'
 
 export default {
   components: {
@@ -263,7 +265,8 @@ export default {
     CallToAction,
     ClientsPartners,
     Testimonials,
-    VideoPreview
+    VideoPreview,
+    Team
   },
   data () {
     return {
